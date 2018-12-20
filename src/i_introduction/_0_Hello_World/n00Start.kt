@@ -18,12 +18,10 @@ fun todoTask0(): Nothing = TODO(
 
         Using 'references =' you can navigate to the code mentioned in the task description.
 
-        Let's start! Make the function 'task0' return "OK". Note that you can return expression directly.
+        Let's start! Make the function  'task0' return "OK". Note that you can return expression directly.
     """,
     documentation = doc0(),
     references = { task0(); "OK" }
 )
 
-fun task0(): String {
-    return todoTask0()
-}
+fun task0() = "OK"
